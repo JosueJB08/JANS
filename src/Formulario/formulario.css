@@ -1,0 +1,73 @@
+form {
+  width: 90%;
+  max-width: 300px;
+  background-color: #696969;
+  padding: 33px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: #f1eaf7;
+  margin-bottom: 26px;
+}
+
+textarea {
+  background-color: #f1f1f1;
+  border: 2px solid #202329;
+  border-radius: 20px;
+    color: #1E1E1F;
+  font-size: 20px;
+  text-align: center;
+  padding: 12px;
+  height: 96px;
+  width: calc(100% - 20px);
+}
+
+textarea::placeholder {
+  color: #000000;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+textarea:focus {
+  outline-color: #BCA9F5;
+}
+
+.Form-buttonContenedor {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.form-boton{
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  color: #202329;
+  font-weight: 400;
+  width: 120px;
+  height: 48px;
+  border-radius: 2px;
+  border: none;
+  font-family: 'Montserrat';
+}
+
+.form-boton-add {
+  background: #BCA9F5;
+  box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+  border-radius: 20px;
+}
+
+.form-boton-cancelar {
+   background: #BCA9F5;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+     border-radius: 20px;
+}

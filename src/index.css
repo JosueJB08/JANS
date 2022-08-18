@@ -1,0 +1,12 @@
+body {
+  font-family: "Arial";
+  margin: 0;
+  padding: 0;
+  background:#380B61 ; 
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
+}
