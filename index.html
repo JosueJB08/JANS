@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Reportes - DataTables</title>
+    
+    <!-- CSS de DataTables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
+    
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Sistema de Reportes de Usuarios</h1>
+            <p class="descripcion">
+                Gestiona y exporta información de usuarios. Usa los botones para descargar reportes en Excel o PDF.
+            </p>
+        </header>
+        
+        <main>
+            <table id="tablaUsuarios" class="display" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Email</th>
+                        <th>Teléfono</th>
+                        <th>Departamento</th>
+                        <th>Salario</th>
+                        <th>Estado</th>
+                        <th>Fecha Registro</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los datos se cargan dinámicamente desde PHP -->
+                </tbody>
+            </table>
+        </main>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+    
+    <!-- JavaScript personalizado -->
+    <script src="js/datatable-config.js"></script>
+</body>
+</html>
